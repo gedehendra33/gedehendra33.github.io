@@ -226,8 +226,8 @@ h6 {
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
+  background-size: cover;
   height: 100vh;
-  min-height: -webkit-fill-available;
   width: 100%;
   position: absolute;
   bottom: 0;
