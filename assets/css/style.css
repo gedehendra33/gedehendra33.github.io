@@ -133,10 +133,10 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu {
-  padding-top: 30px;
-}
-
+  .nav-menu {
+    padding-top: 30px;
+  }
+  
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -156,6 +156,10 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+}
+
+.nav-menu .list-group .list-group-item{
+  background-color: #040b14;
 }
 
 .nav-menu a i {
@@ -217,12 +221,13 @@ h6 {
   height: 100vh;
   background: url("../img/hero-bg (2).jpg") top center;
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: absolute;
   bottom: 0;
